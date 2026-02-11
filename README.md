@@ -7,7 +7,6 @@ A simple, modern To-Do List application built with Python (Flask) and HTML/CSS. 
 - **Add Tasks**: Quickly add new tasks to your list.
 - **Delete Tasks**: Remove tasks once they are completed.
 - **Data Persistence**: Tasks are saved to a JSON file (`tasks.json`), so they survive server restarts.
-- **Modern UI**: Clean, dark-mode interface designed with CSS3 and Flexbox.
 
 ## Project Structure
 
@@ -16,8 +15,6 @@ focus_list/
 ├── app.py              # Main Flask backend application
 ├── tasks.json          # Data storage (auto-generated)
 ├── requirements.txt    # Python dependencies
-├── static/
-│   └── style.css       # Custom CSS styling
 └── templates/
     └── index.html      # HTML template
 ```
@@ -64,5 +61,4 @@ focus_list/
 - **Python**: Backend logic
 - **Flask**: Web framework
 - **HTML5**: Structure
-- **CSS3**: Styling
 - **JSON**: Simple data storage
